@@ -44,6 +44,15 @@ return {
         post_restore_cmds = { restore_nvim_tree, "NvimTreeOpen" }
       }
     end
+  },
+  {
+    "ntpeters/vim-better-whitespace",
+    cmd = {
+      "EnableWhitespace",
+      "DisableWhitespace",
+      "ToggleWhitespace",
+      "StripWhitespace"
+    }
   }
   -- These are some examples, uncomment them if you want to see them work!
   -- {
